@@ -1,6 +1,4 @@
 import Multiselect from "multiselect-react-dropdown";
-import Datepicker from "@themesberg/tailwind-datepicker/Datepicker";
-
 function select() {
   return (
     <>
@@ -60,7 +58,6 @@ function select() {
             showCheckbox
           />
         </div>
-        <Datepicker />
       </div>
     </>
   );
