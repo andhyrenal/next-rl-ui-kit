@@ -1,9 +1,6 @@
-import DatePicker from "react-datepicker";
-import { useState } from "react";
 import "react-datepicker/dist/react-datepicker.css";
 
 function date() {
-  const [startDate, setStartDate] = useState(new Date());
   return (
     <div className="text-center mt-5">
       <input
