@@ -25,6 +25,14 @@ export default function Layout({ children }) {
       href: "/select",
       title: "Select",
     },
+    {
+      href: "/date",
+      title: "DatePicker",
+    },
+    {
+      href: "/slider",
+      title: "Slider",
+    },
   ];
 
   return (
